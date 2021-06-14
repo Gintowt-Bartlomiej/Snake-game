@@ -16,5 +16,6 @@
 
 ## How to run this app?
   1. Clone the template project: git clone https://github.com/github-gintek/Snake-game.git
-  2. Install the project's development and runtime requirements: pip install -r requirements.txt
-  3. Run the game.
+  2. cd Snake-game
+  3. Install the project's development and runtime requirements: pip install -r requirements.txt
+  4. Run the game.

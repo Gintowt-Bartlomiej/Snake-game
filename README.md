@@ -8,7 +8,7 @@
   * Eat as many apples as you can and become the longest snake possbile!
   * Avoid bounderies and do not eat yourself.
   
-  ![demo](https://user-images.githubusercontent.com/84721830/121782141-6f77d280-cba8-11eb-8b16-9b3d561a4c5b.jpg)
+ ![demo](https://user-images.githubusercontent.com/84721830/121873754-fcd13900-cd06-11eb-8d00-8546ee95c662.jpg)
   
 ## Technologies:
   * Python - all project was made in python, based on Python's classes.

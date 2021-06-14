@@ -163,6 +163,7 @@ class Game:
         self.snake.walk()
         self.apple.draw()
         self.display_score()
+        self.high_score()
         pygame.display.flip()
 
         #snake eating apple
@@ -187,6 +188,12 @@ class Game:
         font = pygame.font.SysFont('times new roman',30)
         score = font.render(f"Score: {self.snake.length}",True,(255,255,255))
         self.surface.blit(score,(650,10))
+        
+    #hight score function
+    def high_score(self):
+        font = pygame.font.SysFont('times new roman',30)
+        score = font.render(f"High score: {40}",True,(255,255,255))
+        self.surface.blit(score,(35,10))
 
     #game over function, ending screen
     def show_game_over(self):
